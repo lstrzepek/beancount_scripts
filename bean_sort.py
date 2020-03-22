@@ -6,8 +6,6 @@ import re
 with open(sys.argv[1], "r", encoding="UTF-8") as file:
     buffer = {}
     index = "0000-00-00"
-    with open(sys.argv[1], "r", encoding="UTF-8") as file:
-    buffer = {}
     tnx=0
     for line in file:
         if re.match(r'\d\d\d\d-\d\d-\d\d', line):
